@@ -13,14 +13,14 @@
      
     def func():
      #Enter your Twilio accountSid and authToken
-     accountSid = "AC06281d9d920fd5d6c0cace7cff1dc52b"
-     authToken = "2a3cbb3ef3722c2e7eba1a43385c5853"
+     accountSid = ""
+     authToken = ""
      #Parser for the Cricbuzz XML Page in cricbuzz library
      cric = CricbuzzParser()
      #Connecting to the Twilio API
      client = Client(accountSid, authToken)
-     myTwilioNumber =  "+12036354112"
-     destCellPhone = "+918975103784"
+     myTwilioNumber =  ""
+     destCellPhone = ""
      #Getting the XML File and extracting the matches from it
      match = cric.getXml()
      details = cric.handleMatches(match)
